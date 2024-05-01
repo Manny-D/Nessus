@@ -111,3 +111,4 @@ Installation completed!
 
 ## Scanning
 
+![Scan Templates](https://github.com/Manny-D/Nessus/assets/99146530/f113d3d2-9126-4555-a900-36ea0ff04ef7)
