@@ -111,4 +111,39 @@ Installation completed!
 
 ## Scanning
 
+In the Scan Templates section, there is a list of pre-defined templates (as seen below). 
+
 ![Scan Templates](https://github.com/Manny-D/Nessus/assets/99146530/f113d3d2-9126-4555-a900-36ea0ff04ef7)
+
+<br>
+
+### Basic Network Scan
+Click on <b>Basic Network Scan</b> and on the page that follows, enter in a name (anything you want) and enter the IP(s) of your Targets (eg. what you want to scan). 
+
+![New Scan](https://github.com/Manny-D/Nessus/assets/99146530/9db116a2-b566-47b9-9c43-5476a693865f)
+
+Next, click Save (bottom left corner) and we'll be taken to My Scans page. Start the scan by pressing the icon to the right that looks like a play button. 
+
+![Test Scan](https://github.com/Manny-D/Nessus/assets/99146530/02e2e95e-16bd-451f-a5b1-9eab801158c5)
+
+Once completed, a check will appear and we can view the results.
+
+<br>
+
+### Scan Results
+
+![Results Pane](https://github.com/Manny-D/Nessus/assets/99146530/85df538a-56ea-4e65-9038-c5e88f50040c)
+
+This results pane provides all of the information the scan collected. On the left there is list of hosts scanned, then a summary of any vulnerabilities discovered. If we were scanning an entire network, this would likely contain various hosts. Also, the vulnerabilities are arranged by criticality by default. On the right are the Scan Details and below it is a donut chart of identified security issues. We can click on the Vulnerabilities tab to see what the Nessus discovered.
+
+<br>
+
+![Vulnerabilities](https://github.com/Manny-D/Nessus/assets/99146530/1a8a49ec-d188-43a0-b432-42be2b80f980)
+
+Here, any of the rows can be ordered by clicking on them. We can also gain more insight on a vulnerability by clicking on any one of them. 
+
+<br>
+
+![SSL](https://github.com/Manny-D/Nessus/assets/99146530/3d6c0467-f7ee-4957-b275-969e36f77597)
+
+This page gives a description of the issue, the plugin used to detect it, and risk information. Solution(s) to address the issue are usually found below the description. As a best practice when contacting a system owner after a scan's completion, we should attach an exported .pdf and add a summary including hosts, issues and remediation steps. 
